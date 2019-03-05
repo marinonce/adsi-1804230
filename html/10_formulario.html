@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form action="" method="post">
+		<!-- Datos personales -->
+		<fieldset>
+			<legend> Datos personales </legend>
+			<label for="nombre">Nombre completo:</label>
+				<input type="text" id="nombre">
+				<br>
+				<label for="genero">Genero:</label>
+				<select id="genero">
+					<option value="">Seleccione...</option>
+					<option value="F">Femenino</option>
+					<option value="M">Masculino</option>
+					
+				</selec>
+				<br>
+				<label for="clave">contraseña:</label>
+				<input type="password" id="clave">
+				<br>
+				<label for="descripcion">Descripcion:</label>
+				<br>
+				<textarea id="descripcion" cols="30" rows="10"></textarea>
+
+		</fieldset>
+		<!-- Datos institucionales -->
+		<fieldset>
+			<legend>
+				<h4>Datos institucionales</h4>
+			</legend>
+			Selecciones una titulacion:
+			<br>
+			<label>
+				<input type="radio" name="titulacion"> TGO Motores diesel
+
+			</label>
+
+			<br>
+			
+			<label>
+				<input type="radio" name="titulacion"> TGO ADSI
+
+			</label>
+
+			<br>
+
+			<label>
+				<input type="radio" name="titulacion"> TGO Desarrollo grafico
+
+			</label>
+
+			<br>
+
+			<label>
+
+			<input type="radio" name="titulacion"> TCO Soldadura
+
+			</label>
+
+			<br>
+			Seleccione transversales favoritas:
+			<br>
+
+			<label >
+				<input type="checkbox" name="transver"> Ingles
+			</label>
+
+			<br>
+
+			<label >
+				<input type="checkbox" name="transver"> Matematicas
+			</label>
+
+			<br>
+
+			<label >
+				<input type="checkbox" name="transver"> Cultura fisica
+			</label>
+
+			<br>
+
+			<label >
+				<input type="checkbox" name="transver"> Etica
+			</label>
+			<br><br>
+			<label for="foto"></label>
+			<input type="file" id="foto" accept="image/*">
+			<br><br>
+			<input type="submit" value="ENVIAR DATOS">
+			<input type="reset" value="LIMPIAR DATOS">
+			
+
+
+
+		</fieldset>
+
+
+	</form>
+
+
+</body>
+</html>
