@@ -1,45 +1,47 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>selectores basicos</title>
-    <ol class="menu">
-      <li id="opt1">universales(*)</li>
-      <li>etiqueta(p)</li>
-      <li>decendente(ol li)</li>
-      <li>clase(.)</li>
-      <li>ID(#)</li>
-      <li>combinado</li>
-    </ol>
-    <style>
-      *{
-        border: 1px solid red;
-      }
-      /* etiqueta */
-      li {
-        background-color: lime;
-        margin: 4px;
-      }
-      /* descendente */
-      ol li {
-        border-bottom: 4px solid lime;
-      }
-      /* clase */
-      .menu {
-        border: 4px dotted fuchsia;
-      }
-      /* identificacion */
-      #opt1 {
-        background-color: orange;
-      }
-      /* combinado */
-      ol.menu li#opt2 {
-        background-color: : yellow;
-        font-size: 2em;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>incluir css en el documento html</h1>
-  </body>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Selectores Basicos CSS</title>
+	<style>
+		/* Universal */
+		*{
+			border:1px solid gray;
+		}
+		/*Etiqueta*/
+		li {
+			background-color: lime;
+			margin: 4px;
+		}
+		/* Descendente*/
+		ol li {
+			border-bottom: 4px solid lime;
+		}
+		/* Clase*/
+		.menu {
+			border:4px solid fuchsia;
+		}
+		/* Identificacion*/
+		#opt1 {
+			background-color: orange;
+		}
+		/* Combinado*/
+		ol.menu li#opt2{
+			background-color: yellow;
+			font-size: 2em;
+		}
+	</style>
+</head>
+<body>
+	<h1>Selectores basicos css</h1>
+	<hr>
+	<ol class="menu">
+		<li id="opt1">Universal (*)</li>
+		<li id="opt2">Etiqueta (p)</li>
+		<li>Descendente (ol li)</li>
+		<li>Clase (.)</li>
+		<li>Id (#)</li>
+		<li>Combinado (ol.menu li#opt1)</li>
+	</ol>
+</body>
 </html>
